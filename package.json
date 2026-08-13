@@ -1,0 +1,18 @@
+{
+  "name": "danbao-open-source-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BSC Mainnet Solidity contracts and reproducible verification tools",
+  "scripts": {
+    "check:addresses": "node scripts/check-addresses.js",
+    "compile": "node scripts/compile-contracts.js",
+    "verify": "npm run check:addresses && npm run compile"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0",
+    "solc": "0.8.35"
+  }
+}
