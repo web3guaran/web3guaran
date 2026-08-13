@@ -1,4 +1,4 @@
-WEB3GUARANTEE
+WEB3GUARAN(贝壳担保)
 
 Open Source Repository: https://github.com/web3guaran/web3guaran
 
@@ -138,6 +138,6 @@ Until that follow-up is completed, this report should be understood as a source-
 Contract Naming and Historical Compatibility
 The four independent Shuifang implementation files are not present in this repository and are not deployment targets. The compiler does not hide existing source files by matching the Shuifang name; it loads the available Solidity sources and emits artifacts only for the 27 names in deployments/bsc-mainnet.json. Historical IShuifang* interfaces and the PlatformSettings compatibility field remain only where they are part of shared deployed-source compatibility. They do not constitute a published Shuifang implementation or an active product feature in this repository.
 
-Full report: WEB3GUARANTEE-Audit-Report.pdf
+Full report: WEB3GUARAN-Audit-Report.pdf
 
 SHA-256: 1c66b42c406e2115dd9bd692d52ac9af221aae12706848c91c77059b72a66890
