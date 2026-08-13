@@ -20,65 +20,71 @@ npm run verify
 编译产物写入已被 .gitignore 忽略的 artifacts/。地址检查以 deployments/bsc-mainnet.json 为唯一清单。
 
 Published Contracts
-#	Contract	BSC Mainnet Address
-1	PlatformSettings	[0xE25ABc2d4c71A9000eD026194fa4D6C47c80E7FA](https://bscscan.com/address/0xE25ABc2d4c71A9000eD026194fa4D6C47c80E7FA)
-2	InviteRegistry	[0xa765305D554953Ea32f8b965258164e142E61c5D](https://bscscan.com/address/0xa765305D554953Ea32f8b965258164e142E61c5D)
-3	KeywordAuction	[0xF658D89d1b029f3bA934c3Bb7F185c879d68a6e9](https://bscscan.com/address/0xF658D89d1b029f3bA934c3Bb7F185c879d68a6e9)
-4	PlatformFeeSplitter	[0xDD3C3980F3948a0729E84ea869AfebD1956395f7](https://bscscan.com/address/0xDD3C3980F3948a0729E84ea869AfebD1956395f7)
-5	ArchiveStore	[0x1884A6893A86985fA978EfF5aEb5607737F0B69D](https://bscscan.com/address/0x1884A6893A86985fA978EfF5aEb5607737F0B69D)
-6	ProductFactoryKeywords	[0xA040a2b51941c0059623Cd7caFe5E2528a7A19dd](https://bscscan.com/address/0xA040a2b51941c0059623Cd7caFe5E2528a7A19dd)
-7	CooldownManager	[0x69Ae8325a03083B3157cb6852E05B69DFce3B42F](https://bscscan.com/address/0x69Ae8325a03083B3157cb6852E05B69DFce3B42F)
-8	MerchantDepositTemplate	[0xdf6e9A548dc0c717D6Ac0a526B7d2ca66a8fB38c](https://bscscan.com/address/0xdf6e9A548dc0c717D6Ac0a526B7d2ca66a8fB38c)
-9	PhysicalProductTemplate	[0x0b7F3Ce77B9123bd1d319aa9912e12D025694CF2](https://bscscan.com/address/0x0b7F3Ce77B9123bd1d319aa9912e12D025694CF2)
-10	VirtualProductTemplate	[0x52Cd32de28a749ae9a49443c91a86bbc2FA0586b](https://bscscan.com/address/0x52Cd32de28a749ae9a49443c91a86bbc2FA0586b)
-11	ServiceProductTemplate	[0xf4F714fCEebaE1e89aE0f1FA69Aad0858Bbb3e63](https://bscscan.com/address/0xf4F714fCEebaE1e89aE0f1FA69Aad0858Bbb3e63)
-12	WantToBuyTemplate	[0x6f65D699C9081E58BBB19d8559d5154abDDf8Ee4](https://bscscan.com/address/0x6f65D699C9081E58BBB19d8559d5154abDDf8Ee4)
-13	C2CSellOrderTemplate	[0xef7bb81f085f36E1Bd28f3A9ebF27C608FC86427](https://bscscan.com/address/0xef7bb81f085f36E1Bd28f3A9ebF27C608FC86427)
-14	C2CBuyOrderTemplate	[0x68A265DFD5AfDa52e3e9E3A115D98Bde13CD9Df2](https://bscscan.com/address/0x68A265DFD5AfDa52e3e9E3A115D98Bde13CD9Df2)
-15	C2CTradeTemplate	[0xfa262CC7AEAD50F2cA297bDC66AF597e55a0942c](https://bscscan.com/address/0xfa262CC7AEAD50F2cA297bDC66AF597e55a0942c)
-16	AuctionTemplate	[0x8Ba6E6E379896bA0D645313Ac59100672856A9C9](https://bscscan.com/address/0x8Ba6E6E379896bA0D645313Ac59100672856A9C9)
-17	CommunityArbitrationTemplate	[0xb32d0c1383b22c13b1938a12481cD13F63E08705](https://bscscan.com/address/0xb32d0c1383b22c13b1938a12481cD13F63E08705)
-18	DepositFactory	[0x55E00711f55959804Dd19dfC789cF1Bf625E9743](https://bscscan.com/address/0x55E00711f55959804Dd19dfC789cF1Bf625E9743)
-19	KeywordWeight	[0xE9a7743412a8aA494992620aFAB21E5126410E47](https://bscscan.com/address/0xE9a7743412a8aA494992620aFAB21E5126410E47)
-20	ProductFactory	[0xD19412629350450A4E98179A4eA9D8fd3bAa7970](https://bscscan.com/address/0xD19412629350450A4E98179A4eA9D8fd3bAa7970)
-21	ProductFactoryReader	[0x804dBc01C8AfdDd6924D29662A78bcef79F10e0A](https://bscscan.com/address/0x804dBc01C8AfdDd6924D29662A78bcef79F10e0A)
-22	ServiceLocationIndex	[0x4DB6a634BeE6ba5D638Afc1042127CFeA2A35bBD](https://bscscan.com/address/0x4DB6a634BeE6ba5D638Afc1042127CFeA2A35bBD)
-23	C2CFactory	[0x0072767D2D9ADaA4f75AdAdC5f8ee3EAc622F8fC](https://bscscan.com/address/0x0072767D2D9ADaA4f75AdAdC5f8ee3EAc622F8fC)
-24	C2CFactoryReader	[0xf3d40DA61D4bFb752B9D97388eb9D3530Ec3369c](https://bscscan.com/address/0xf3d40DA61D4bFb752B9D97388eb9D3530Ec3369c)
-25	AuctionFactory	[0x5BE0C5484BC7C64d34277162e037A9071edc1819](https://bscscan.com/address/0x5BE0C5484BC7C64d34277162e037A9071edc1819)
-26	AuctionFactoryReader	[0x6C572E0D5bdfe78Daf8A6fd7ab6ead48EEc71b7c](https://bscscan.com/address/0x6C572E0D5bdfe78Daf8A6fd7ab6ead48EEc71b7c)
-27	CommunityArbitrationFactory	[0x94775FBe4e60E125Dca959ca5dD86D301D7531dC](https://bscscan.com/address/0x94775FBe4e60E125Dca959ca5dD86D301D7531dC)
+
+| # | Contract | BSC Mainnet Address |
+|---|----------|---------------------|
+| 1 | PlatformSettings | [0xE25ABc2d4c71A9000eD026194fa4D6C47c80E7FA](https://bscscan.com/address/0xE25ABc2d4c71A9000eD026194fa4D6C47c80E7FA) |
+| 2 | InviteRegistry | [0xa765305D554953Ea32f8b965258164e142E61c5D](https://bscscan.com/address/0xa765305D554953Ea32f8b965258164e142E61c5D) |
+| 3 | KeywordAuction | [0xF658D89d1b029f3bA934c3Bb7F185c879d68a6e9](https://bscscan.com/address/0xF658D89d1b029f3bA934c3Bb7F185c879d68a6e9) |
+| 4 | PlatformFeeSplitter | [0xDD3C3980F3948a0729E84ea869AfebD1956395f7](https://bscscan.com/address/0xDD3C3980F3948a0729E84ea869AfebD1956395f7) |
+| 5 | ArchiveStore | [0x1884A6893A86985fA978EfF5aEb5607737F0B69D](https://bscscan.com/address/0x1884A6893A86985fA978EfF5aEb5607737F0B69D) |
+| 6 | ProductFactoryKeywords | [0xA040a2b51941c0059623Cd7caFe5E2528a7A19dd](https://bscscan.com/address/0xA040a2b51941c0059623Cd7caFe5E2528a7A19dd) |
+| 7 | CooldownManager | [0x69Ae8325a03083B3157cb6852E05B69DFce3B42F](https://bscscan.com/address/0x69Ae8325a03083B3157cb6852E05B69DFce3B42F) |
+| 8 | MerchantDepositTemplate | [0xdf6e9A548dc0c717D6Ac0a526B7d2ca66a8fB38c](https://bscscan.com/address/0xdf6e9A548dc0c717D6Ac0a526B7d2ca66a8fB38c) |
+| 9 | PhysicalProductTemplate | [0x0b7F3Ce77B9123bd1d319aa9912e12D025694CF2](https://bscscan.com/address/0x0b7F3Ce77B9123bd1d319aa9912e12D025694CF2) |
+| 10 | VirtualProductTemplate | [0x52Cd32de28a749ae9a49443c91a86bbc2FA0586b](https://bscscan.com/address/0x52Cd32de28a749ae9a49443c91a86bbc2FA0586b) |
+| 11 | ServiceProductTemplate | [0xf4F714fCEebaE1e89aE0f1FA69Aad0858Bbb3e63](https://bscscan.com/address/0xf4F714fCEebaE1e89aE0f1FA69Aad0858Bbb3e63) |
+| 12 | WantToBuyTemplate | [0x6f65D699C9081E58BBB19d8559d5154abDDf8Ee4](https://bscscan.com/address/0x6f65D699C9081E58BBB19d8559d5154abDDf8Ee4) |
+| 13 | C2CSellOrderTemplate | [0xef7bb81f085f36E1Bd28f3A9ebF27C608FC86427](https://bscscan.com/address/0xef7bb81f085f36E1Bd28f3A9ebF27C608FC86427) |
+| 14 | C2CBuyOrderTemplate | [0x68A265DFD5AfDa52e3e9E3A115D98Bde13CD9Df2](https://bscscan.com/address/0x68A265DFD5AfDa52e3e9E3A115D98Bde13CD9Df2) |
+| 15 | C2CTradeTemplate | [0xfa262CC7AEAD50F2cA297bDC66AF597e55a0942c](https://bscscan.com/address/0xfa262CC7AEAD50F2cA297bDC66AF597e55a0942c) |
+| 16 | AuctionTemplate | [0x8Ba6E6E379896bA0D645313Ac59100672856A9C9](https://bscscan.com/address/0x8Ba6E6E379896bA0D645313Ac59100672856A9C9) |
+| 17 | CommunityArbitrationTemplate | [0xb32d0c1383b22c13b1938a12481cD13F63E08705](https://bscscan.com/address/0xb32d0c1383b22c13b1938a12481cD13F63E08705) |
+| 18 | DepositFactory | [0x55E00711f55959804Dd19dfC789cF1Bf625E9743](https://bscscan.com/address/0x55E00711f55959804Dd19dfC789cF1Bf625E9743) |
+| 19 | KeywordWeight | [0xE9a7743412a8aA494992620aFAB21E5126410E47](https://bscscan.com/address/0xE9a7743412a8aA494992620aFAB21E5126410E47) |
+| 20 | ProductFactory | [0xD19412629350450A4E98179A4eA9D8fd3bAa7970](https://bscscan.com/address/0xD19412629350450A4E98179A4eA9D8fd3bAa7970) |
+| 21 | ProductFactoryReader | [0x804dBc01C8AfdDd6924D29662A78bcef79F10e0A](https://bscscan.com/address/0x804dBc01C8AfdDd6924D29662A78bcef79F10e0A) |
+| 22 | ServiceLocationIndex | [0x4DB6a634BeE6ba5D638Afc1042127CFeA2A35bBD](https://bscscan.com/address/0x4DB6a634BeE6ba5D638Afc1042127CFeA2A35bBD) |
+| 23 | C2CFactory | [0x0072767D2D9ADaA4f75AdAdC5f8ee3EAc622F8fC](https://bscscan.com/address/0x0072767D2D9ADaA4f75AdAdC5f8ee3EAc622F8fC) |
+| 24 | C2CFactoryReader | [0xf3d40DA61D4bFb752B9D97388eb9D3530Ec3369c](https://bscscan.com/address/0xf3d40DA61D4bFb752B9D97388eb9D3530Ec3369c) |
+| 25 | AuctionFactory | [0x5BE0C5484BC7C64d34277162e037A9071edc1819](https://bscscan.com/address/0x5BE0C5484BC7C64d34277162e037A9071edc1819) |
+| 26 | AuctionFactoryReader | [0x6C572E0D5bdfe78Daf8A6fd7ab6ead48EEc71b7c](https://bscscan.com/address/0x6C572E0D5bdfe78Daf8A6fd7ab6ead48EEc71b7c) |
+| 27 | CommunityArbitrationFactory | [0x94775FBe4e60E125Dca959ca5dD86D301D7531dC](https://bscscan.com/address/0x94775FBe4e60E125Dca959ca5dD86D301D7531dC) |
+
 Common dependencies ProductLib.sol and interfaces/Interfaces.sol have no independent deployment addresses.
 
 已公开合约
-#	合约	BSC Mainnet 地址
-1	PlatformSettings	[0xE25ABc2d4c71A9000eD026194fa4D6C47c80E7FA](https://bscscan.com/address/0xE25ABc2d4c71A9000eD026194fa4D6C47c80E7FA)
-2	InviteRegistry	[0xa765305D554953Ea32f8b965258164e142E61c5D](https://bscscan.com/address/0xa765305D554953Ea32f8b965258164e142E61c5D)
-3	KeywordAuction	[0xF658D89d1b029f3bA934c3Bb7F185c879d68a6e9](https://bscscan.com/address/0xF658D89d1b029f3bA934c3Bb7F185c879d68a6e9)
-4	PlatformFeeSplitter	[0xDD3C3980F3948a0729E84ea869AfebD1956395f7](https://bscscan.com/address/0xDD3C3980F3948a0729E84ea869AfebD1956395f7)
-5	ArchiveStore	[0x1884A6893A86985fA978EfF5aEb5607737F0B69D](https://bscscan.com/address/0x1884A6893A86985fA978EfF5aEb5607737F0B69D)
-6	ProductFactoryKeywords	[0xA040a2b51941c0059623Cd7caFe5E2528a7A19dd](https://bscscan.com/address/0xA040a2b51941c0059623Cd7caFe5E2528a7A19dd)
-7	CooldownManager	[0x69Ae8325a03083B3157cb6852E05B69DFce3B42F](https://bscscan.com/address/0x69Ae8325a03083B3157cb6852E05B69DFce3B42F)
-8	MerchantDepositTemplate	[0xdf6e9A548dc0c717D6Ac0a526B7d2ca66a8fB38c](https://bscscan.com/address/0xdf6e9A548dc0c717D6Ac0a526B7d2ca66a8fB38c)
-9	PhysicalProductTemplate	[0x0b7F3Ce77B9123bd1d319aa9912e12D025694CF2](https://bscscan.com/address/0x0b7F3Ce77B9123bd1d319aa9912e12D025694CF2)
-10	VirtualProductTemplate	[0x52Cd32de28a749ae9a49443c91a86bbc2FA0586b](https://bscscan.com/address/0x52Cd32de28a749ae9a49443c91a86bbc2FA0586b)
-11	ServiceProductTemplate	[0xf4F714fCEebaE1e89aE0f1FA69Aad0858Bbb3e63](https://bscscan.com/address/0xf4F714fCEebaE1e89aE0f1FA69Aad0858Bbb3e63)
-12	WantToBuyTemplate	[0x6f65D699C9081E58BBB19d8559d5154abDDf8Ee4](https://bscscan.com/address/0x6f65D699C9081E58BBB19d8559d5154abDDf8Ee4)
-13	C2CSellOrderTemplate	[0xef7bb81f085f36E1Bd28f3A9ebF27C608FC86427](https://bscscan.com/address/0xef7bb81f085f36E1Bd28f3A9ebF27C608FC86427)
-14	C2CBuyOrderTemplate	[0x68A265DFD5AfDa52e3e9E3A115D98Bde13CD9Df2](https://bscscan.com/address/0x68A265DFD5AfDa52e3e9E3A115D98Bde13CD9Df2)
-15	C2CTradeTemplate	[0xfa262CC7AEAD50F2cA297bDC66AF597e55a0942c](https://bscscan.com/address/0xfa262CC7AEAD50F2cA297bDC66AF597e55a0942c)
-16	AuctionTemplate	[0x8Ba6E6E379896bA0D645313Ac59100672856A9C9](https://bscscan.com/address/0x8Ba6E6E379896bA0D645313Ac59100672856A9C9)
-17	CommunityArbitrationTemplate	[0xb32d0c1383b22c13b1938a12481cD13F63E08705](https://bscscan.com/address/0xb32d0c1383b22c13b1938a12481cD13F63E08705)
-18	DepositFactory	[0x55E00711f55959804Dd19dfC789cF1Bf625E9743](https://bscscan.com/address/0x55E00711f55959804Dd19dfC789cF1Bf625E9743)
-19	KeywordWeight	[0xE9a7743412a8aA494992620aFAB21E5126410E47](https://bscscan.com/address/0xE9a7743412a8aA494992620aFAB21E5126410E47)
-20	ProductFactory	[0xD19412629350450A4E98179A4eA9D8fd3bAa7970](https://bscscan.com/address/0xD19412629350450A4E98179A4eA9D8fd3bAa7970)
-21	ProductFactoryReader	[0x804dBc01C8AfdDd6924D29662A78bcef79F10e0A](https://bscscan.com/address/0x804dBc01C8AfdDd6924D29662A78bcef79F10e0A)
-22	ServiceLocationIndex	[0x4DB6a634BeE6ba5D638Afc1042127CFeA2A35bBD](https://bscscan.com/address/0x4DB6a634BeE6ba5D638Afc1042127CFeA2A35bBD)
-23	C2CFactory	[0x0072767D2D9ADaA4f75AdAdC5f8ee3EAc622F8fC](https://bscscan.com/address/0x0072767D2D9ADaA4f75AdAdC5f8ee3EAc622F8fC)
-24	C2CFactoryReader	[0xf3d40DA61D4bFb752B9D97388eb9D3530Ec3369c](https://bscscan.com/address/0xf3d40DA61D4bFb752B9D97388eb9D3530Ec3369c)
-25	AuctionFactory	[0x5BE0C5484BC7C64d34277162e037A9071edc1819](https://bscscan.com/address/0x5BE0C5484BC7C64d34277162e037A9071edc1819)
-26	AuctionFactoryReader	[0x6C572E0D5bdfe78Daf8A6fd7ab6ead48EEc71b7c](https://bscscan.com/address/0x6C572E0D5bdfe78Daf8A6fd7ab6ead48EEc71b7c)
-27	CommunityArbitrationFactory	[0x94775FBe4e60E125Dca959ca5dD86D301D7531dC](https://bscscan.com/address/0x94775FBe4e60E125Dca959ca5dD86D301D7531dC)
+
+| # | 合约 | BSC Mainnet 地址 |
+|---|------|------------------|
+| 1 | PlatformSettings | [0xE25ABc2d4c71A9000eD026194fa4D6C47c80E7FA](https://bscscan.com/address/0xE25ABc2d4c71A9000eD026194fa4D6C47c80E7FA) |
+| 2 | InviteRegistry | [0xa765305D554953Ea32f8b965258164e142E61c5D](https://bscscan.com/address/0xa765305D554953Ea32f8b965258164e142E61c5D) |
+| 3 | KeywordAuction | [0xF658D89d1b029f3bA934c3Bb7F185c879d68a6e9](https://bscscan.com/address/0xF658D89d1b029f3bA934c3Bb7F185c879d68a6e9) |
+| 4 | PlatformFeeSplitter | [0xDD3C3980F3948a0729E84ea869AfebD1956395f7](https://bscscan.com/address/0xDD3C3980F3948a0729E84ea869AfebD1956395f7) |
+| 5 | ArchiveStore | [0x1884A6893A86985fA978EfF5aEb5607737F0B69D](https://bscscan.com/address/0x1884A6893A86985fA978EfF5aEb5607737F0B69D) |
+| 6 | ProductFactoryKeywords | [0xA040a2b51941c0059623Cd7caFe5E2528a7A19dd](https://bscscan.com/address/0xA040a2b51941c0059623Cd7caFe5E2528a7A19dd) |
+| 7 | CooldownManager | [0x69Ae8325a03083B3157cb6852E05B69DFce3B42F](https://bscscan.com/address/0x69Ae8325a03083B3157cb6852E05B69DFce3B42F) |
+| 8 | MerchantDepositTemplate | [0xdf6e9A548dc0c717D6Ac0a526B7d2ca66a8fB38c](https://bscscan.com/address/0xdf6e9A548dc0c717D6Ac0a526B7d2ca66a8fB38c) |
+| 9 | PhysicalProductTemplate | [0x0b7F3Ce77B9123bd1d319aa9912e12D025694CF2](https://bscscan.com/address/0x0b7F3Ce77B9123bd1d319aa9912e12D025694CF2) |
+| 10 | VirtualProductTemplate | [0x52Cd32de28a749ae9a49443c91a86bbc2FA0586b](https://bscscan.com/address/0x52Cd32de28a749ae9a49443c91a86bbc2FA0586b) |
+| 11 | ServiceProductTemplate | [0xf4F714fCEebaE1e89aE0f1FA69Aad0858Bbb3e63](https://bscscan.com/address/0xf4F714fCEebaE1e89aE0f1FA69Aad0858Bbb3e63) |
+| 12 | WantToBuyTemplate | [0x6f65D699C9081E58BBB19d8559d5154abDDf8Ee4](https://bscscan.com/address/0x6f65D699C9081E58BBB19d8559d5154abDDf8Ee4) |
+| 13 | C2CSellOrderTemplate | [0xef7bb81f085f36E1Bd28f3A9ebF27C608FC86427](https://bscscan.com/address/0xef7bb81f085f36E1Bd28f3A9ebF27C608FC86427) |
+| 14 | C2CBuyOrderTemplate | [0x68A265DFD5AfDa52e3e9E3A115D98Bde13CD9Df2](https://bscscan.com/address/0x68A265DFD5AfDa52e3e9E3A115D98Bde13CD9Df2) |
+| 15 | C2CTradeTemplate | [0xfa262CC7AEAD50F2cA297bDC66AF597e55a0942c](https://bscscan.com/address/0xfa262CC7AEAD50F2cA297bDC66AF597e55a0942c) |
+| 16 | AuctionTemplate | [0x8Ba6E6E379896bA0D645313Ac59100672856A9C9](https://bscscan.com/address/0x8Ba6E6E379896bA0D645313Ac59100672856A9C9) |
+| 17 | CommunityArbitrationTemplate | [0xb32d0c1383b22c13b1938a12481cD13F63E08705](https://bscscan.com/address/0xb32d0c1383b22c13b1938a12481cD13F63E08705) |
+| 18 | DepositFactory | [0x55E00711f55959804Dd19dfC789cF1Bf625E9743](https://bscscan.com/address/0x55E00711f55959804Dd19dfC789cF1Bf625E9743) |
+| 19 | KeywordWeight | [0xE9a7743412a8aA494992620aFAB21E5126410E47](https://bscscan.com/address/0xE9a7743412a8aA494992620aFAB21E5126410E47) |
+| 20 | ProductFactory | [0xD19412629350450A4E98179A4eA9D8fd3bAa7970](https://bscscan.com/address/0xD19412629350450A4E98179A4eA9D8fd3bAa7970) |
+| 21 | ProductFactoryReader | [0x804dBc01C8AfdDd6924D29662A78bcef79F10e0A](https://bscscan.com/address/0x804dBc01C8AfdDd6924D29662A78bcef79F10e0A) |
+| 22 | ServiceLocationIndex | [0x4DB6a634BeE6ba5D638Afc1042127CFeA2A35bBD](https://bscscan.com/address/0x4DB6a634BeE6ba5D638Afc1042127CFeA2A35bBD) |
+| 23 | C2CFactory | [0x0072767D2D9ADaA4f75AdAdC5f8ee3EAc622F8fC](https://bscscan.com/address/0x0072767D2D9ADaA4f75AdAdC5f8ee3EAc622F8fC) |
+| 24 | C2CFactoryReader | [0xf3d40DA61D4bFb752B9D97388eb9D3530Ec3369c](https://bscscan.com/address/0xf3d40DA61D4bFb752B9D97388eb9D3530Ec3369c) |
+| 25 | AuctionFactory | [0x5BE0C5484BC7C64d34277162e037A9071edc1819](https://bscscan.com/address/0x5BE0C5484BC7C64d34277162e037A9071edc1819) |
+| 26 | AuctionFactoryReader | [0x6C572E0D5bdfe78Daf8A6fd7ab6ead48EEc71b7c](https://bscscan.com/address/0x6C572E0D5bdfe78Daf8A6fd7ab6ead48EEc71b7c) |
+| 27 | CommunityArbitrationFactory | [0x94775FBe4e60E125Dca959ca5dD86D301D7531dC](https://bscscan.com/address/0x94775FBe4e60E125Dca959ca5dD86D301D7531dC) |
+
 公共依赖 ProductLib.sol 与 interfaces/Interfaces.sol 没有独立部署地址。
 
 Platform Advantages
